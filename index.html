@@ -580,8 +580,28 @@
       <h1 class="pink-text blue-text">Hello World!</h1>
       <h1 class="blue-text">Hello World!</h1>
 
-
-
+      <!-- Override Class Declarations by Styling ID Attributes -->
+      <style> 
+        body {
+                  background-color: black;
+                  font-family: monospace;
+                  color: green;
+                }
+          #orange-text{
+             colour:orange;
+          }
+          .pink-text {
+            color: pink;
+          }
+          .blue-text {
+            color: blue;
+          }
+          #orange-text{
+             colour:orange;
+          }
+        </style>
+        <h1 id="orange-text"   class="pink-text" class="blue-text"> Hello Word</h1>
+        
 
 </body>
 </html>
